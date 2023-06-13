@@ -18,6 +18,7 @@ public class RegTest extends BaseTest {
         WebElement textRegister =  getDriver().findElement(By.xpath("//h1[normalize-space()='Register']"));
 
         Assert.assertEquals(textRegister.getText(),"Register");
+        Assert.assertEquals(textRegister.getText(),"Register");
 
     }
 }
